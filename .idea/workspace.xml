@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5d7c4be-f83f-400b-80c1-e3c8617fbb89" name="Default" comment="" />
+    <list default="true" id="a5d7c4be-f83f-400b-80c1-e3c8617fbb89" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +30,8 @@
       <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,11 +42,12 @@
       <file leaf-file-name="Dollar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dollar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="225">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding>
                 <element signature="e#70#71#0" expanded="true" />
                 <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
                 <element signature="e#194#195#0" expanded="true" />
               </folding>
             </state>
@@ -57,12 +63,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Dollar.java" />
         <option value="$PROJECT_DIR$/src/test/java/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dollar.java" />
       </list>
     </option>
   </component>
@@ -71,6 +80,7 @@
     <option name="width" value="961" />
     <option name="height" value="1053" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -156,6 +166,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="MainTest.testEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Currency" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="testEquality" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="MainTest.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Currency" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -214,10 +241,12 @@
     <list>
       <item itemvalue="JUnit.MainTest.testMultiplication" />
       <item itemvalue="JUnit.MainTest" />
+      <item itemvalue="JUnit.MainTest.testEquality" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.testEquality" />
         <item itemvalue="JUnit.MainTest.testMultiplication" />
       </list>
     </recent_temporary>
@@ -236,14 +265,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_testMultiplication - 2018.04.06 at 10h 25m 26s.xml">
-      <configuration name="MainTest.testMultiplication" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest - 2018.04.06 at 10h 26m 38s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MainTest - 2018.04.06 at 10h 40m 28s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testEquality - 2018.04.06 at 11h 31m 24s.xml">
+      <configuration name="MainTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testEquality - 2018.04.06 at 11h 31m 28s.xml">
+      <configuration name="MainTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testMultiplication - 2018.04.06 at 11h 31m 35s.xml">
+      <configuration name="MainTest.testMultiplication" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2018.04.06 at 11h 31m 41s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testEquality - 2018.04.06 at 11h 32m 42s.xml">
+      <configuration name="MainTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testEquality - 2018.04.06 at 11h 34m 41s.xml">
+      <configuration name="MainTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testEquality - 2018.04.06 at 11h 35m 45s.xml">
+      <configuration name="MainTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testEquality - 2018.04.06 at 11h 36m 38s.xml">
+      <configuration name="MainTest.testEquality" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -252,14 +302,14 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32912722" />
+      <window_info anchor="bottom" id="Messages" weight="0.32842106" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32912722" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32947367" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -291,11 +341,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dollar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="225">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
             <element signature="e#70#71#0" expanded="true" />
             <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
             <element signature="e#194#195#0" expanded="true" />
           </folding>
         </state>
@@ -303,8 +354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
